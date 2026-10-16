@@ -25,6 +25,10 @@ research, each with a design note explaining the trade-offs.
 - **[llm-decide](https://github.com/gangjig/llm-decide)** — Plugin for Simon
   Willison's `llm` CLI: typed decision commands returning structured JSON
   instead of prose. *28 tests*
+- **[eval-leakcheck](https://github.com/gangjig/eval-leakcheck)** —
+  Pre-publish leakage scanner for eval/training task repos: finds solutions
+  hiding in leftover Git objects, history, side branches, and the working
+  tree. *89 tests*
 
 ## What I care about
 
