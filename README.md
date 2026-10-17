@@ -18,7 +18,7 @@ research, each with a design note explaining the trade-offs.
   cost per correct decision. *47 tests*
 - **[cost-per-task](https://github.com/gangjig/cost-per-task)** — Rank LLMs by
   cost per *successful* task, not price per token — retries and failures
-  included. *35 tests*
+  included. *49 tests*
 - **[agent-hooks](https://github.com/gangjig/agent-hooks)** — Pre-commit hooks
   that enforce your rules on AI coding agents; rejection output is a corrective
   instruction written for the agent. *38 tests*
@@ -29,6 +29,10 @@ research, each with a design note explaining the trade-offs.
   Pre-publish leakage scanner for eval/training task repos: finds solutions
   hiding in leftover Git objects, history, side branches, and the working
   tree. *89 tests*
+- **[agent-replay-diff](https://github.com/gangjig/agent-replay-diff)** —
+  Find where repeated runs of the same agent task diverge: volatile tool
+  outputs (timestamps, IDs, latencies) are normalized away, then traces are
+  diffed step by step to the first real fork. *106 tests*
 
 ## What I care about
 
