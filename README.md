@@ -15,13 +15,13 @@ research, each with a design note explaining the trade-offs.
   conclusions, with full provenance. *50 tests*
 - **[decidekit](https://github.com/gangjig/decidekit)** — Evaluate decision
   models (yes-no / choice / score) on accuracy, calibration (Brier, ECE), and
-  cost per correct decision. *47 tests*
+  cost per correct decision. *63 tests*
 - **[cost-per-task](https://github.com/gangjig/cost-per-task)** — Rank LLMs by
   cost per *successful* task, not price per token — retries and failures
   included. *49 tests*
 - **[agent-hooks](https://github.com/gangjig/agent-hooks)** — Pre-commit hooks
   that enforce your rules on AI coding agents; rejection output is a corrective
-  instruction written for the agent. *38 tests*
+  instruction written for the agent. *52 tests*
 - **[llm-decide](https://github.com/gangjig/llm-decide)** — Plugin for Simon
   Willison's `llm` CLI: typed decision commands returning structured JSON
   instead of prose. *28 tests*
