@@ -21,7 +21,7 @@ research, each with a design note explaining the trade-offs.
   included. *49 tests*
 - **[agent-hooks](https://github.com/gangjig/agent-hooks)** — Pre-commit hooks
   that enforce your rules on AI coding agents; rejection output is a corrective
-  instruction written for the agent. *84 tests*
+  instruction written for the agent. *91 tests*
 - **[llm-decide](https://github.com/gangjig/llm-decide)** — Plugin for Simon
   Willison's `llm` CLI: typed decision commands returning structured JSON
   instead of prose. *28 tests*
