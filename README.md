@@ -9,7 +9,7 @@ research, each with a design note explaining the trade-offs.
 
 - **[ace-in-a-box](https://github.com/gangjig/ace-in-a-box)** — A self-evolving
   playbook framework for agents (ACE-style): structured context bullets with
-  helpful/harmful feedback, curation, and budget-aware rendering. *73 tests*
+  helpful/harmful feedback, curation, and budget-aware rendering. *93 tests*
 - **[stateledger](https://github.com/gangjig/stateledger)** — Explicit-state
   memory for long-running agents: append-only evidence kept separate from
   conclusions, with full provenance. *50 tests*
