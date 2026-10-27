@@ -33,6 +33,10 @@ research, each with a design note explaining the trade-offs.
   Find where repeated runs of the same agent task diverge: volatile tool
   outputs (timestamps, IDs, latencies) are normalized away, then traces are
   diffed step by step to the first real fork. *106 tests*
+- **[mcp-faultcheck](https://github.com/gangjig/mcp-faultcheck)** —
+  Fault-injection harness for MCP servers: a stdio proxy injects tool
+  failures (timeouts, empty/malformed results, JSON-RPC errors, wrong-typed
+  fields) and reports how much task success each fault type costs. *68 tests*
 
 ## What I care about
 
