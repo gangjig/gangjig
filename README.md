@@ -18,7 +18,7 @@ research, each with a design note explaining the trade-offs.
   cost per correct decision. *81 tests*
 - **[cost-per-task](https://github.com/gangjig/cost-per-task)** — Rank LLMs by
   cost per *successful* task, not price per token — retries and failures
-  included. *49 tests*
+  included. *80 tests*
 - **[agent-hooks](https://github.com/gangjig/agent-hooks)** — Pre-commit hooks
   that enforce your rules on AI coding agents; rejection output is a corrective
   instruction written for the agent. *91 tests*
@@ -32,11 +32,27 @@ research, each with a design note explaining the trade-offs.
 - **[agent-replay-diff](https://github.com/gangjig/agent-replay-diff)** —
   Find where repeated runs of the same agent task diverge: volatile tool
   outputs (timestamps, IDs, latencies) are normalized away, then traces are
-  diffed step by step to the first real fork. *106 tests*
+  diffed step by step to the first real fork. *121 tests*
 - **[mcp-faultcheck](https://github.com/gangjig/mcp-faultcheck)** —
   Fault-injection harness for MCP servers: a stdio proxy injects tool
   failures (timeouts, empty/malformed results, JSON-RPC errors, wrong-typed
   fields) and reports how much task success each fault type costs. *68 tests*
+- **[llm-spend](https://github.com/gangjig/llm-spend)** — Plugin for Simon
+  Willison's `llm` CLI: price what your `llm` history actually cost, from
+  the token usage already logged in its database. *11 tests*
+- **[provider-parity](https://github.com/gangjig/provider-parity)** — Check
+  whether the same model name served through different providers is really
+  the same model: one fixed suite of probes against OpenAI-compatible
+  endpoints, compared with evidence. *39 tests*
+- **[llm-cassette](https://github.com/gangjig/llm-cassette)** — VCR for LLM
+  calls: record an agent's model calls once, replay them in tests forever
+  — offline, deterministic, free. *23 tests*
+- **[tracecheck](https://github.com/gangjig/tracecheck)** — Unit tests for
+  agent behavior: deterministic assertions over the trace your agent
+  actually left behind, with every failure naming the exact step. *15 tests*
+- **[contextpack](https://github.com/gangjig/contextpack)** — Assemble LLM
+  context under a hard token budget, with the drop decisions explicit and
+  a manifest to prove them. *19 tests*
 
 ## What I care about
 
