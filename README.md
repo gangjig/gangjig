@@ -53,6 +53,11 @@ research, each with a design note explaining the trade-offs.
 - **[contextpack](https://github.com/gangjig/contextpack)** — Assemble LLM
   context under a hard token budget, with the drop decisions explicit and
   a manifest to prove them. *19 tests*
+- **[compaction-bench](https://github.com/gangjig/compaction-bench)** —
+  Compare context-compaction strategies (full history, single-action,
+  end-of-conversation, sliding window, periodic summary) on the same
+  traces: success rate, peak context, and token cost in one table.
+  *44 tests*
 
 ## What I care about
 
