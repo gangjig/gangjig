@@ -58,6 +58,10 @@ research, each with a design note explaining the trade-offs.
   end-of-conversation, sliding window, periodic summary) on the same
   traces: success rate, peak context, and token cost in one table.
   *44 tests*
+- **[cred-proxy](https://github.com/gangjig/cred-proxy)** — Local egress
+  proxy that swaps real API credentials in at request time: the agent
+  sends a placeholder, only declared routes are forwarded, and secrets
+  are redacted out of responses. *44 tests*
 
 ## What I care about
 
