@@ -36,7 +36,9 @@ research, each with a design note explaining the trade-offs.
 - **[mcp-faultcheck](https://github.com/gangjig/mcp-faultcheck)** —
   Fault-injection harness for MCP servers: a stdio proxy injects tool
   failures (timeouts, empty/malformed results, JSON-RPC errors, wrong-typed
-  fields) and reports how much task success each fault type costs. *68 tests*
+  fields) and reports how much task success each fault type costs; a goals
+  mode hands the agent unachievable tasks and checks whether it concedes
+  honestly instead of spinning or claiming false success. *91 tests*
 - **[llm-spend](https://github.com/gangjig/llm-spend)** — Plugin for Simon
   Willison's `llm` CLI: price what your `llm` history actually cost, from
   the token usage already logged in its database. *11 tests*
@@ -62,6 +64,11 @@ research, each with a design note explaining the trade-offs.
   proxy that swaps real API credentials in at request time: the agent
   sends a placeholder, only declared routes are forwarded, and secrets
   are redacted out of responses. *44 tests*
+- **[trace-waste](https://github.com/gangjig/trace-waste)** — Audit an
+  agent's run traces for wasted tokens: repeated tool calls, redundant
+  reasoning, and tool results or context that nothing later used — with
+  the waste share and estimated savings broken down by category.
+  *45 tests*
 
 ## What I care about
 
