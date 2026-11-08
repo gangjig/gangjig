@@ -69,6 +69,12 @@ research, each with a design note explaining the trade-offs.
   reasoning, and tool results or context that nothing later used — with
   the waste share and estimated savings broken down by category.
   *45 tests*
+- **[bypass-battery](https://github.com/gangjig/bypass-battery)** —
+  Adversarial test battery for URL validators: a fixed corpus of hostile
+  inputs with browser ground truth (backslash authority truncation,
+  numeric IP encodings, Unicode dots, redirect chains) catches the gaps
+  between what a validator checks and what the consumer of the value
+  actually does — locally, with no Docker and no LLM. *28 tests*
 
 ## What I care about
 
