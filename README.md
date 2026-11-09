@@ -38,7 +38,7 @@ research, each with a design note explaining the trade-offs.
   failures (timeouts, empty/malformed results, JSON-RPC errors, wrong-typed
   fields) and reports how much task success each fault type costs; a goals
   mode hands the agent unachievable tasks and checks whether it concedes
-  honestly instead of spinning or claiming false success. *91 tests*
+  honestly instead of spinning or claiming false success. *96 tests*
 - **[llm-spend](https://github.com/gangjig/llm-spend)** — Plugin for Simon
   Willison's `llm` CLI: price what your `llm` history actually cost, from
   the token usage already logged in its database. *11 tests*
@@ -48,7 +48,7 @@ research, each with a design note explaining the trade-offs.
   endpoints, compared with evidence. *39 tests*
 - **[llm-cassette](https://github.com/gangjig/llm-cassette)** — VCR for LLM
   calls: record an agent's model calls once, replay them in tests forever
-  — offline, deterministic, free. *23 tests*
+  — offline, deterministic, free. *40 tests*
 - **[tracecheck](https://github.com/gangjig/tracecheck)** — Unit tests for
   agent behavior: deterministic assertions over the trace your agent
   actually left behind, with every failure naming the exact step. *15 tests*
