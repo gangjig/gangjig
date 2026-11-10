@@ -63,7 +63,7 @@ research, each with a design note explaining the trade-offs.
 - **[cred-proxy](https://github.com/gangjig/cred-proxy)** — Local egress
   proxy that swaps real API credentials in at request time: the agent
   sends a placeholder, only declared routes are forwarded, and secrets
-  are redacted out of responses. *44 tests*
+  are redacted out of responses. *52 tests*
 - **[trace-waste](https://github.com/gangjig/trace-waste)** — Audit an
   agent's run traces for wasted tokens: repeated tool calls, redundant
   reasoning, and tool results or context that nothing later used — with
