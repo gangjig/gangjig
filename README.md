@@ -12,7 +12,7 @@ research, each with a design note explaining the trade-offs.
   helpful/harmful feedback, curation, and budget-aware rendering. *121 tests*
 - **[stateledger](https://github.com/gangjig/stateledger)** — Explicit-state
   memory for long-running agents: append-only evidence kept separate from
-  conclusions, with full provenance. *50 tests*
+  conclusions, with full provenance. *71 tests*
 - **[decidekit](https://github.com/gangjig/decidekit)** — Evaluate decision
   models (yes-no / choice / score) on accuracy, calibration (Brier, ECE), and
   cost per correct decision. *81 tests*
