@@ -32,7 +32,12 @@ research, each with a design note explaining the trade-offs.
 - **[agent-replay-diff](https://github.com/gangjig/agent-replay-diff)** —
   Find where repeated runs of the same agent task diverge: volatile tool
   outputs (timestamps, IDs, latencies) are normalized away, then traces are
-  diffed step by step to the first real fork. *121 tests*
+  diffed step by step to the first real fork. *138 tests*
+- **[verifier-forge](https://github.com/gangjig/verifier-forge)** —
+  Generate a verifier for an agent task from a spec (evidence head +
+  domain rules), then self-test it against constructed candidates with
+  known verdicts and grade the agreement — false passes are named as
+  verifier holes and cap the grade. *49 tests*
 - **[mcp-faultcheck](https://github.com/gangjig/mcp-faultcheck)** —
   Fault-injection harness for MCP servers: a stdio proxy injects tool
   failures (timeouts, empty/malformed results, JSON-RPC errors, wrong-typed
