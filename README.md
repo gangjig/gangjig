@@ -24,7 +24,7 @@ research, each with a design note explaining the trade-offs.
   instruction written for the agent. *91 tests*
 - **[llm-decide](https://github.com/gangjig/llm-decide)** — Plugin for Simon
   Willison's `llm` CLI: typed decision commands returning structured JSON
-  instead of prose. *28 tests*
+  instead of prose. *37 tests*
 - **[eval-leakcheck](https://github.com/gangjig/eval-leakcheck)** —
   Pre-publish leakage scanner for eval/training task repos: finds solutions
   hiding in leftover Git objects, history, side branches, and the working
@@ -80,6 +80,10 @@ research, each with a design note explaining the trade-offs.
   numeric IP encodings, Unicode dots, redirect chains) catches the gaps
   between what a validator checks and what the consumer of the value
   actually does — locally, with no Docker and no LLM. *28 tests*
+- **[poppy-probe](https://github.com/gangjig/poppy-probe)** — Probe a
+  website's Poppy discovery file: fetch `/.well-known/poppy.json` under
+  the spec's fetch rules and report what the site allows personal agents
+  to do, what sign-in it requires, and what limits it sets. *132 tests*
 
 ## What I care about
 
