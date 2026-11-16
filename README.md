@@ -84,6 +84,12 @@ research, each with a design note explaining the trade-offs.
   website's Poppy discovery file: fetch `/.well-known/poppy.json` under
   the spec's fetch rules and report what the site allows personal agents
   to do, what sign-in it requires, and what limits it sets. *132 tests*
+- **[trojan-neuron-scan](https://github.com/gangjig/trojan-neuron-scan)**
+  — Audit a model checkpoint's last MLP layer for dormant-neuron
+  trojans: neurons that never fire on benign traces, checked for the
+  Lazarus edit signature (aligned gate/up rows, a down column promoting
+  one token, an outsized write), with synthetic clean/trojan fixtures
+  for end-to-end testing. *122 tests*
 
 ## What I care about
 
