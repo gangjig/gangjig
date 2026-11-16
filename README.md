@@ -89,7 +89,7 @@ research, each with a design note explaining the trade-offs.
   trojans: neurons that never fire on benign traces, checked for the
   Lazarus edit signature (aligned gate/up rows, a down column promoting
   one token, an outsized write), with synthetic clean/trojan fixtures
-  for end-to-end testing. *122 tests*
+  for end-to-end testing. *129 tests*
 
 ## What I care about
 
