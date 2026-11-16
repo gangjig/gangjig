@@ -83,7 +83,7 @@ research, each with a design note explaining the trade-offs.
 - **[poppy-probe](https://github.com/gangjig/poppy-probe)** — Probe a
   website's Poppy discovery file: fetch `/.well-known/poppy.json` under
   the spec's fetch rules and report what the site allows personal agents
-  to do, what sign-in it requires, and what limits it sets. *132 tests*
+  to do, what sign-in it requires, and what limits it sets. *136 tests*
 - **[trojan-neuron-scan](https://github.com/gangjig/trojan-neuron-scan)**
   — Audit a model checkpoint's last MLP layer for dormant-neuron
   trojans: neurons that never fire on benign traces, checked for the
