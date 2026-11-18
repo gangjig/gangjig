@@ -12,7 +12,8 @@ research, each with a design note explaining the trade-offs.
   helpful/harmful feedback, curation, and budget-aware rendering. *192 tests*
 - **[stateledger](https://github.com/gangjig/stateledger)** — Explicit-state
   memory for long-running agents: append-only evidence kept separate from
-  conclusions, with full provenance. *89 tests*
+  conclusions, with full provenance, plus a gap ledger that keeps
+  unanswered questions together with the evidence tried. *125 tests*
 - **[decidekit](https://github.com/gangjig/decidekit)** — Evaluate decision
   models (yes-no / choice / score) on accuracy, calibration (Brier, ECE), and
   cost per correct decision. *81 tests*
@@ -90,6 +91,10 @@ research, each with a design note explaining the trade-offs.
   Lazarus edit signature (aligned gate/up rows, a down column promoting
   one token, an outsized write), with synthetic clean/trojan fixtures
   for end-to-end testing. *129 tests*
+- **[sandbox-probe](https://github.com/gangjig/sandbox-probe)** — Probe
+  whether an agent sandbox actually contains the agent: escape probes
+  (read outside the mount, env secrets, network bypass, write to
+  read-only dirs) with contained/escaped/error verdicts. *70 tests*
 
 ## What I care about
 
