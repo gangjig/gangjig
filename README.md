@@ -57,7 +57,9 @@ research, each with a design note explaining the trade-offs.
   — offline, deterministic, free. *40 tests*
 - **[tracecheck](https://github.com/gangjig/tracecheck)** — Unit tests for
   agent behavior: deterministic assertions over the trace your agent
-  actually left behind, with every failure naming the exact step. *15 tests*
+  actually left behind, with every failure naming the exact step, plus
+  perturbation checks that deliberately tamper with a trace to expose
+  blind spots in the assertions. *30 tests*
 - **[contextpack](https://github.com/gangjig/contextpack)** — Assemble LLM
   context under a hard token budget, with the drop decisions explicit and
   a manifest to prove them. *19 tests*
@@ -95,6 +97,10 @@ research, each with a design note explaining the trade-offs.
   whether an agent sandbox actually contains the agent: escape probes
   (read outside the mount, env secrets, network bypass, write to
   read-only dirs) with contained/escaped/error verdicts. *70 tests*
+- **[exec-judge](https://github.com/gangjig/exec-judge)** — Compile a
+  scoring rubric into a readable Python judge program with one LLM call,
+  then batch-score documents on CPU with zero model calls, reporting
+  agreement against reference labels and cost saved. *83 tests*
 
 ## What I care about
 
