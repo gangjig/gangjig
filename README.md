@@ -102,6 +102,11 @@ research, each with a design note explaining the trade-offs.
   scoring rubric into a readable Python judge program with one LLM call,
   then batch-score documents on CPU with zero model calls, reporting
   agreement against reference labels and cost saved. *83 tests*
+- **[spec-first-agent](https://github.com/gangjig/spec-first-agent)** — A
+  harness that makes an agent write a machine-checkable spec (properties
+  and invariants) before any implementation, with a sanity check that
+  rejects vacuous specs and a done-gate that only passes when every
+  property holds. *31 tests*
 
 ## What I care about
 
