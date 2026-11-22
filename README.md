@@ -107,6 +107,11 @@ research, each with a design note explaining the trade-offs.
   and invariants) before any implementation, with a sanity check that
   rejects vacuous specs and a done-gate that only passes when every
   property holds. *31 tests*
+- **[cross-family-monitor](https://github.com/gangjig/cross-family-monitor)** — Send
+  one agent trajectory to judges from different model families and report
+  where they disagree: same-family review misses violations another
+  family catches, so disagreement is the signal. CLI gate with JSON
+  output and a no-API-keys demo. *80 tests*
 
 ## What I care about
 
